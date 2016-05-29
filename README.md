@@ -1,3 +1,4 @@
+## Running Tests (Reproduction of Original Paper Results) ##
 Reproduction scripts are intended for use Linux or Mac OS only. Do not attempt to run on EC2, as virtualization will break down.
 
  1. Clone this repository: [github.com/victorkp/rcp-ns2-result-reproduction](https://github.com/victorkp/rcp-ns2-result-reproduction)
@@ -10,7 +11,7 @@ Reproduction scripts are intended for use Linux or Mac OS only. Do not attempt t
 Note for those reproducing on computers with under 6GB of memory: 
 the current Vagrantfile setup tries to use 4GB of RAM for the virtual machine. Consider reducing memory usage in the Vagrantfile. See the “config.vm.customize” attribute.
 
-Sample Results:
+## Sample Results: ##
 ![log scale result](sample-output/log-plot.png)
 
 ![normal scale result](sample-output/normal-plot.png)
