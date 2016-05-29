@@ -18,6 +18,8 @@ if [ ! command -v vagrant > /dev/null 2>&1 ] || [ ! command -v virtualbox > /dev
 
 fi
 
+mkdir -p test-output
+
 # Force stop vagrant VM, if any exists
 # vagrant destroy may error if no vagrant VM is 
 # currently running or suspended, so temporarily disable
