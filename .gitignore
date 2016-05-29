@@ -2,4 +2,3 @@
 *.tr
 *.out
 .vagrant/
-.test-output/*
